@@ -1,0 +1,110 @@
+.btn {
+	font-family: arial;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.btn-estado {
+	background: yellow;
+	color: 000000;
+	box-shadow: 0 5px 0 #006000;
+	border-radius:10px;
+}
+
+.btn-estado:hover {
+background: yellow;
+	color: 000000;
+	box-shadow: 0 5px 0 #006000;
+	border-radius:10px;
+}
+
+.btn-estado:active {
+	position:relative;
+	top:5px;
+	box-shadow: none;
+	border-radius:10px;
+}
+
+
+.btn-cidade {
+	background: yellow;
+	color: 000000;
+	box-shadow: 0 5px 0 #006000;
+	border-radius:10px;
+}
+
+.btn-cidade:hover {
+	background:#006000;
+	color: 000000;
+	box-shadow: 0 5px 0 #003f00;
+	
+}
+
+.btn-cidade:active {
+	position:relative;
+	top:5px;
+	box-shadow: none;
+}
+
+
+.btn-cliente {
+	background: yellow;
+	color: 000000;
+	box-shadow: 0 5px 0 #006000;
+	border-radius:10px;
+}
+
+.btn-cliente:hover {
+	background:#006000;
+	color: 000000;
+	box-shadow: 0 5px 0 #003f00;
+}
+
+.btn-cliente:active {
+	position:relative;
+	top:5px;
+	box-shadow: none;
+}
+
+
+.btn-pesquisa {
+	background: yellow;
+	color: 000000;
+	box-shadow: 0 5px 0 #006000;
+	border-radius:10px;
+}
+
+.btn-pesquisa:hover {
+	background:#006000;
+	color: 000000;
+	box-shadow: 0 5px 0 #003f00;
+}
+
+.btn-pesquisa:active {
+	position:relative;
+	top:5px;
+	box-shadow: none;
+}
+
+.btn-relatorio {
+	background: yellow;
+	color: 000000;
+	box-shadow: 0 5px 0 #006000;
+	border-radius:10px;
+}
+
+.btn-relatorio:hover {
+	background:#006000;
+	color: 000000;
+	box-shadow: 0 5px 0 #003f00;
+}
+
+.btn-relatorio:active {
+	position:relative;
+	top:5px;
+	box-shadow: none;
+}

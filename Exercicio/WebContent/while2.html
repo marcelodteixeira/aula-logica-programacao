@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<button onclick="numb()">Ver numero</button>
+
+	<script>
+		numero = new Array("Um", "Dois", "Três", "Quatro");
+
+		function numb() {
+
+			let i = 0
+
+			while (i < numero.length) {
+
+				if (i%2 != 0) {
+					
+					document.writeln(numero[i]);
+
+				}
+
+				i++;
+
+			}
+		}
+	</script>
+
+</body>
+</html>

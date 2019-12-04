@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora</title>
+</head>
+<body>
+<script src="js/basico.js"></script>
+<script>
+	// A função multiplica está em basico.js. Ela retorna o valor da soma.
+	// Ela recebe 2 parâmetros.
+	var r = multiplica(100, 25);
+	// A função exibeValor está em basico.js. Ela não retorna valor.
+	// Ela recebe 1 parâmetro. 
+	exibeValor(r);
+	
+	// var nums = [3,4,5];
+	var nums = new Array(3,4,5);
+	// A função somaNumeros está em basico.js. Ela retorna o valor da soma.
+	// Ela recebe 1 parâmetro
+	var soma = somaNumeros(nums);
+	exibeValor(soma);
+	
+	// A função imprimeCliente está em basico.js. Ela retorna não retorna.
+	// Ela recebe  parâmetro
+	var cli = {
+		nome: "João da Silva",
+		email: "joao@silva.com",
+		telefone: "(48)98781-0987"
+	};
+	
+	imprimeCliente(cli);
+
+	// Criação de um objeto literal
+	cli = {
+		nome: "Maria da Silva",
+		email: "maria@silva.com",
+		telefone: "(48)98781-0989",
+	};
+	
+	imprimeCliente(cliente);
+	
+	var data = new Date();
+	alert(data);
+	
+	
+	// Criação de um objeto via construtor
+	var cliente = new Cliente("Luiz", 
+			"luiz@nanana.com", 
+			"(48) 99876-0987", 
+			"8782372891-09");
+	
+</script>
+</body>
+</html>

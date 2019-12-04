@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+
+
+<script  type="text/javascript">
+
+let cidade = "Florianópolis";
+
+console.log(cidade.charAt(7));
+
+let estado = 'SC';
+let cidadeEstado = cidade.concat('-',estado);
+console.log(cidadeEstado);
+
+let texto = 'Hoje é terça-feira dia 22/10/2019';
+let index = texto.indexOf('terça',10);
+console.log(index);
+
+let texto2 = 'Hoje é treça dia 22/10/2019' + 'será quarta-feira dia 23/10/2019';
+let lastIndex = texto2.lastIndexOf('2019');
+console.log(lastIndex);
+
+let amor = "Eu amo você e amo muito";
+let odio = amor.replace('amo','odeio');
+console.log(odio);
+
+let min = 'senai sc';
+let mai = min.toUpperCase();
+console.log(mai);
+
+let min2 = mai.toLowerCase();
+console.log(min2);
+
+let posIni = texto2.indexOf('23');
+texto.slice(posIni,posIni+11);
+console.log(posIni);
+
+let lista = 'João,Maria,Pedro,Fernanda';
+let nomes = lista.split(',');
+for (let i=0;i<nomes.leght;i++){
+	console.log(nome[i]);
+}
+
+
+
+
+</script>
+
+</html>

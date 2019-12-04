@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cidade</title>
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body onload="javascript:carregarDadosCidade()">
+	<script src="../js/sa.js"></script>
+	<h1>Cadastros de Cidades</h1>
+	<form>
+				<div>
+					<label>Nome</label>
+					<input type="text" id="nome_cidade" placeholder = "Insira o nome da Cidade" required/>
+				</div>				
+				<div>
+					<label for="nome_estado">Estado</label>
+				<select id= "comboEstado">
+					
+					<option>Selecione</option>
+					
+					</select>
+				</div>
+					<div class = "div-button">
+					<button onclick="salvarCidade()">Salvar</button>
+				</div>
+				
+	</form>

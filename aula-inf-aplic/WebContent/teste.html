@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body onload = "checkFilled()">
+
+<script type="text/javascript">
+
+function checkFilled() {
+    var inputElem = document.getElementById("subEmail");
+    if (inputElem.value == "") {
+        inputElem.style.borderColor = "red";
+
+                }
+        }
+</script>
+
+<input type="text" style="borderColor: yellow;" id="subEmail" />
+
+</body>
+</html>

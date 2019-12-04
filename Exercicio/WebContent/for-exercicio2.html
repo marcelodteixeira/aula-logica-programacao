@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var produtos = ['camisa','calça','tenis'];
+var precos = [40,60,200];
+var quantidades = [2,1,1];
+
+var totalCompras=0;
+
+for (var i=0;i<produtos.length;i++){
+var produto = produtos[i];
+var preco = precos[i];
+var qtde = quantidades[i];
+var total = qtde*preco;
+
+totalCompras += total
+
+alert(produto+'-'+qtde+'X'+preco+ '='+total);
+
+}
+
+alert(totalCompras);
+
+</script>
+
+</body>
+</html>
